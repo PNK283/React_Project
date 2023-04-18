@@ -61,3 +61,44 @@ font-size: 16px;
     background-color: white
    
 }
+/*Contact Components Section*/
+/*The Below code is used for the contact map  adjustments in contact Components*/
+.imgcontactus{
+    height:45vh;
+    width:100%;
+    padding-top: 2px;
+  }
+  /* This Describes first container address functions*/
+  .contactus{
+    padding: 25px;
+    text-align: left;
+  }
+  .mainheading-address{
+    text-align: center;
+    text-shadow: 2px;
+    margin: 5px;
+  }
+  .addressform{
+    color: rgb(29, 28, 28);
+    text-align: center;
+    margin: 9px;
+  }
+  .address-container{
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px;
+    height: 120px;
+    width: 40%;
+    padding: 5px;
+    margin: 15px;
+  }
+  .email-container{
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px;
+    height: 55px;
+    width: 15%;
+    padding: 5px;
+    margin: 18px;
+    justify-content: space-between;
+    float: left;
+  }
+
