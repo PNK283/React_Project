@@ -66,13 +66,19 @@ font-size: 16px;
 .imgcontactus{
     height:45vh;
     width:100%;
-    padding-top: 2px;
+    padding-top: 12px;
+    margin: 15px auto;
   }
   /* This Describes first container address functions*/
   .contactus{
     padding: 25px;
-    text-align: left;
+    text-align: center;
+    
   }
+  /*.contactus:hover{
+   color: gray;
+   border-top-style: groove;
+  }*/
   .mainheading-address{
     text-align: center;
     text-shadow: 2px;
@@ -85,20 +91,24 @@ font-size: 16px;
   }
   .address-container{
     background-color: white;
-    box-shadow: 2px 2px 4px 4px;
+    box-shadow: 2px 2px 4px 4px gray;
     height: 120px;
     width: 40%;
-    padding: 5px;
-    margin: 15px;
+    padding: 35px;
+    margin: 15px auto;
+    border-radius: 5px;
+    
   }
   .email-container{
     background-color: white;
-    box-shadow: 2px 2px 4px 4px;
-    height: 55px;
+    box-shadow: 2px 2px 4px 4px gray;
+    height: 35px;
     width: 15%;
-    padding: 5px;
-    margin: 18px;
+    padding: 25px;
+    margin-left: 245px;
     justify-content: space-between;
     float: left;
+    border-radius: 5px;
+    text-align: center;
+    
   }
-
