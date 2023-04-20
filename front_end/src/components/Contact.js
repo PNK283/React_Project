@@ -1,6 +1,6 @@
 import React from 'react'
-import {AiOutlineMail} from "react-icons/ai"
-import{FaPhoneAlt} from "react-icons/fa"
+import {BsFillTelephoneInboundFill} from 'react-icons/bs'
+import {BsFillEnvelopeFill} from 'react-icons/bs'
 import{FaRegAddressCard} from "react-icons/fa"
 
 
@@ -17,17 +17,32 @@ function Contact() {
         </div>
         <div>
           <div className='email-container'>
-            <AiOutlineMail/>
+            <BsFillEnvelopeFill/>
             <h4>Email:</h4>
             <h6>info@vezeza.co.in</h6>
         </div>
         <div className='email-container'>
-          <FaPhoneAlt/>
+            <BsFillTelephoneInboundFill/>
             <h4>Call Us:</h4>
             <h6>+91 7337326804</h6>
         </div>
-
         </div>
+        {/*<div className='school-support-form'> /*This portion is just for contact form */
+          <form>
+            <h2>School Support Form</h2>
+            <label>First Name </label><br/>
+            <input type='text' name='First name' placeholder='Enter'/><br/>
+            <label> Last Name </label><br/>
+            <input type='text' name='Last name' placeholder='Enter'/><br/>
+            <label>Email Id </label><br/>
+            <input type='email' name='email' placeholder='Enter' /><br/>
+            <label>Password </label><br/>
+            <input type='Password' name='Password'  placeholder='Enter'/><br/>
+            <label>Contact Number </label><br/>
+            <input type='text'  placeholder='Enter'/><br/><br/>
+          </form>
+  </div>*/}
+
 
       </div>
       <div>
@@ -41,4 +56,5 @@ function Contact() {
 }
 
 export default Contact
+
 
