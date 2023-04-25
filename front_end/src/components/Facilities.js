@@ -1,86 +1,63 @@
 import React from 'react'
-import { Card } from 'antd'
-import img1 from '../assests/facilities2.PNG'
-import img2 from '../assests/transport.jpg'
-import img3 from '../assests/library.jpg'
-import img4 from '../assests/sports.jpg'
-import img5 from '../assests/labs.jpg'
-import img6 from '../assests/hostel.jpg'
+import {MdSportsCricket} from "react-icons/md";
+import{MdLibraryMusic} from"react-icons/md";
+import{GiPencilBrush} from"react-icons/gi";
+import{MdOutlineEmojiTransportation} from"react-icons/md";
+import{MdFoodBank} from"react-icons/md";
+import img1 from '../assests/transport.jpg'
+import img2 from '../assests/playground.jpg'
+import{GiSchoolBag} from"react-icons/gi";
 
-export const Facilities = () => {
+
+const Facilities = () => {
   return (
     <div>
-         <img  className='facilityimg'  src={img1} ></img>
-          <div class="bg">
-          <p class="prg">
-          WE CONTINUALLY STRIVE TO PROVIDE THE BEST FACILITIES TO OUR<br/> STUDENTS. WITH OUR ROBUST OFFERINGS, WE COVER ALL ASPECTS THAT<br/> CAN HELP MAKE STUDENT'S LIFE COMFORTABLE AND PRODUCTIVE.
-     </p><br/>
-     </div>
-         <div className='texttransport'>
-            <span> <a href ="#T">Transport </a></span>
-        <span>  <a href ="#L"> Library </a> </span>
-         <span>  <a href ="#S">Sports </a></span>
-         <span>   <a href ="#Lab">Labs </a> </span>
-         <span><a href="#H">  Hostel </a></span>
- </div>
- <div>
-<section  id='T'>
- <Card  className='transport'>
- <div>
- <h1>TRANSPORT</h1>
- <img  className=' logoimg'  src={img2} ></img>
-  <p className='paratext'> We pay close attention to the travel safety of our students. With a fleet of buses with 40 seats each, we ensure every student gets <br/>comfortable seating during their journey. Our buses meet all the required government regulation standards and have well-trained <br/>drivers who take care of pick-ups and drops on the assigned routes. We also have bus attenders who look after the students <br/>and take care of seating arrangements.
-</p>
-</div>
-</Card>
-</section>
-<section id='L' >
-<Card  className='library'>
- <div>
- <h1>LIBRARY</h1>
- <img  className='logoimg'  src={img3} ></img>
-  <p className='paratext'>Reading is to the mind, what exercise is to the body. Our libraries house an expansive collection of books that suit the reading levels of different age groups.
-The in-house library also subscribes to leading national dailies and journals. We also have an audio and video collection that can be used to augment classroom learning.
-</p>
-</div>
-</Card>
-</section>
-<section  id='S'>
-<Card   className='Sports'>
- <div>
- <h1>SPORTS</h1>
- <img  className='logoimg'  src={img4} ></img>
-  <p className='paratext'>All work and no play makes Jack a dull boy. At all our institutions, we encourage a healthy balance of work and play. Students are encouraged to experience the challenge and reward of sports through diverse programmes at the school level.
-Our sports department is managed by qualified and competent instructors who design a sports curriculum that improves mental strength, concentration, physical conditioning and coordination, strategic and tactical planning and of course, teamwork.
-We conduct an annual inter-branch sports meet, along with a variety of other activities like athletics, team games, and indoor games.
-</p>
-</div>
-</Card>
-</section>
-<section  id='Lab'>
-<Card  className='labs'>
-<div>
-<h1>LABS</h1>
-<img  className='logoimg'  src={img5} ></img>
-  <p className='paratext'>Our well-equipped labs are a testament to our belief in learning by doing. From practical experiments to other activities, these labs promote an activity-based approach to make learning more stimulating.
-</p>
-</div>
-</Card>
-</section>
-<section id='H'>
-<Card   className='Hostel'>
-<div>
-<h1>Hostel</h1>
-<img  className='logoimg'  src={img6} ></img>
-  <p className='paratext'>Our hostels are equipped with all the amenities necessary to offer students a comfortable and disciplined living and learning environment. From top-notch accommodation to experienced doctors, we prioritise every aspect that aids the kids in their holistic development journey.
-</p>
-</div>
-</Card>
-</section>
-</div>
-<footer className='footer'></footer>
+              <span className='facilityhd1'>FACILITIES</span><br></br>
+      <h1 className='facilityhd2'>Facilites  For Your Kids</h1><br></br>
+        <div className='gridcontainer'>
+          <div className='content1'><h3 className='headline3'> <span className='icons'><MdSportsCricket/></span>Play Ground</h3>
+            <p className='para2'>  Kasd labore kasd et dolor est rebum dolor ut, <br></br>clita dolor vero
+               lorem amet elitr vero...
+              </p>
+               </div>
+        <div className='content2'><h3  className='headline3'><span className='icons'><MdLibraryMusic/></span>Music and Dance</h3>
+             <p className='para2'> Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
+               lorem amet elitr vero...
+                  </p></div>
+        <div className='content3'><h3  className='headline3'><span className='icons'><GiPencilBrush/></span>Arts and Crafts</h3>
+            <p className='para2'>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
+               lorem amet elitr vero...
+               </p></div>
+        <div className='content4'><h3  className='headline3'><span className='icons'><MdOutlineEmojiTransportation/></span>Safe Tranportation</h3>
+             <p className='para2'>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
+                 lorem amet elitr vero...
+                   </p></div>
+        <div className='content5'><h3  className='headline3'><span className='icons'><MdFoodBank/></span>Healthy Food</h3>
+             <p className='para2'>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
+                lorem amet elitr vero...
+                  </p></div>
+        <div className='content6' ><h3  className='headline3'><span className='icons'><GiSchoolBag/></span>Education TOUR</h3>
+             <p className='para2'>Kasd labore kasd et dolor est rebum dolor ut, clita dolor vero
+                lorem amet elitr vero...
+                   </p></div>
+         <div className='playgroundcard'>
+             <img  className='logoimg'  src={img2} ></img><br></br>
+                   <span className='icons'><MdSportsCricket/></span>
+                   <h2 className='playhd'>play Ground</h2>
+                    <p className='playgroundpara'>  Playgrounds provide children with opportunities for exercise, creativity, and imaginative play. They also offer a space for students to interact with their peers and develop social skills such as teamwork, communication, and problem-solving. Furthermore, school playgrounds can promote a healthy lifestyle and contribute to the overall well-being of students.
+                   </p>
+                 </div>
+       <div className='transportcard'>
+            <img  className='logoimg2'  src={img1} ></img><br></br>
+                <span className='icons'><MdOutlineEmojiTransportation/></span>
+                   <h2 className='transhd'>Safe Transportation</h2>
+                 <p className='transportpara'> School safe transportation facilities are important to ensure the safety and security of students while they are commuting to and from school. It provides parents with peace of mind knowing their children are in safe hands while traveling to and from school.Additionally, schools may also provide training and education to students on how to behave safely while riding on school transportation.
+            </p>
     </div>
+         </div>
+            </div>
   )
 }
-
 export default Facilities;
+
+     
