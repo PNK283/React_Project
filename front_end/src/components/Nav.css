@@ -66,52 +66,85 @@ font-size: 16px;
 .imgcontactus{
     height:45vh;
     width:100%;
-    padding-top: 12px;
+    padding-top: 6px;
     margin: 15px auto;
+    text-decoration: underline #159895;
   }
   /* This Describes first container address functions*/
-  .contactus{
-    padding: 25px;
-    text-align: center;
-    
-  }
-  /*.contactus:hover{
-   color: gray;
-   border-top-style: groove;
-  }*/
-  .mainheading-address{
-    text-align: center;
-    text-shadow: 2px;
-    margin: 5px;
-  }
-  .addressform{
-    color: rgb(29, 28, 28);
-    text-align: center;
-    margin: 9px;
-  }
-  .address-container{
+  .card{
     background-color: white;
-    box-shadow: 2px 2px 4px 4px gray;
-    height: 120px;
-    width: 40%;
-    padding: 35px;
-    margin: 15px auto;
-    border-radius: 5px;
-    
-  }
-  .email-container{
-    background-color: white;
-    box-shadow: 2px 2px 4px 4px gray;
-    height: 35px;
-    width: 15%;
-    padding: 25px;
-    margin-left: 245px;
-    justify-content: space-between;
+    height: 350px;
+    width: 300px;
+    opacity: 0.8;
+    margin-left: 160px;
+    /*margin-right: 20px;
+    margin-top: 50px;*/
+    box-shadow: 2px 2px 4px 4px;
+    border-radius: 15px;
     float: left;
-    border-radius: 5px;
-    text-align: center;
-    
+    margin-top: 10px;
   }
+  .text-container{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .textstyle{
+    color: #1A5F7A;
+    font-family: cursive;
+  }
+  
+/*form section*/
+.form1{
+margin-bottom: 3px;
+float:calc(1.5em + 0.8em + 1px)
+
+}
+.form2 {
+  width:max-content;
+  height: calc(1.5em + 0.75rem + 2px);
+  color: #495057;
+  background-color: #fff;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 5px ;
+  font-size: 15px;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  float:inline-start;
+  vertical-align: middle;
+}
+.button-form{
+  background-color: #17a2b8;
+  color: #fff;
+}
+.button-form3{
+  display: inline-block;
+  font-weight: 400;
+  color: white;
+   padding: 0.375rem 0.75rem;
+  font-size: 15px;
+  border-radius: 30px;
+  text-align: center;
+  vertical-align: middle;
+  background-color:#17a2b8;
+  border: 3px;
+
+  margin: auto;
+}
+.background-container{
+  background-color: rgb(117, 178, 228)violet;
+  height: 350px;
+  width: 300px;
+  opacity: 0.8;
+  margin-right: 160px;
+  /*margin-right: 20px;
+  margin-top: 50px;*/
+  box-shadow: 2px 2px 4px 4px;
+  border-radius: 15px;
+  float: right;
+  margin-top: 10px;
+}
  /*facilities component*/
   .facilityimg{
     background-repeat: no-repeat;
