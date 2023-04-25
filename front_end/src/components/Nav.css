@@ -264,5 +264,133 @@ margin-top: 100px;
   float: right;
   padding: 5px;
 }
+/*Admissions component section */
+.admhd1{
+    text-align: center;
+    margin: 30px auto;
+   font-family: sans-serif;
+   max-width: 600px;
+    position: relative;
+     color: #17a2b8;                  
+     font-size: 20px;
+     font-style: bold;
+     float: left;
+     margin-top: 180px;
+     margin-left: 90px;
+    }
+    span{
+        background-color: #fff;
+    }
+    .admhd1::before{
+        content: " ";
+        position: absolute;
+        background-color:#17a2b8;  ;
+        width: 100px;
+        height: 2px;
+        left: 180px;
+        top: 50%;
+        z-index: -1;
+    }
+.admhd2{
+    color: black;
+    font-family: "Handlee" ,cursive;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #00394f;
+    margin-top: 200px;
+    float: left;
+    margin-left: -180px;
+}
+    .para1{
+        margin-top: 230px;
+        margin-left: -700px;
+    }
+    .points{
+        margin-top: 30px;
+    }
+    .done{
+        color: green;
+        margin-left: -910px;
+        }
+    .done2{
+        color: green;
+        margin-left: -945px;
+    }
+    .done3{
+        color: green;
+        margin-left: -912px;
+        margin-top: 100px;
+    
+    }
+    .tickmark{
+        padding: 10px;
+        margin-left: 10px;
+        padding-left: 15px;
+    }
+
+
+.card{
+    width: 400px;
+    height: 800px;
+    float: right;
+    margin-top: -280px;
+    margin-right: 150px;
+    
+}
+.cardheadline{
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Handlee", cursive;
+    background-color: #00394f;
+    color: white;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    
+    
+}
+.cardbody{
+    width: 400px;
+    height: 500px;
+    margin-top: -22px;
+    background: linear-gradient(to top, #00394f 0%, #17A2b8 100%)
+    
+}
+input{
+    width:300px;
+    padding:12px 20px;
+    box-sizing:border-box;
+    line-height: 1.5;
+    border-radius: 8px;
+    box-shadow:#00394f 1px 2px 1px 2px inset;
+    outline:none;
+    position: relative;
+    font-size: 15px;
+    margin-top: 30px;
+    border: none;
+     margin:8px 0;
+}
+
+.textarea{
+    width:265px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 18px;
+    outline: none;
+}
+.booknow{
+    
+    background-color: #00394f;
+    color: white;
+    font-family: "nunito", cursive;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50px;
+    
+
+}
+.booknow:hover{
+    box-shadow: #17A2b8 5px 3px 8px 4px inset;
+}
 
 
