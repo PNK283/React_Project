@@ -248,5 +248,21 @@ margin-top: 100px;
     width: 100%px;
     height: 250px;
 }
+/*Our gallery section*/
+.ourgallery{
+  text-size-adjust: 5px;
+  color:#17a2b8 ;
+}
+.gallery-heading{
+  font-family: cursive;
+}
+.img{
+  float: left;
+  padding: 5px;
+}
+.img1{
+  float: right;
+  padding: 5px;
+}
 
 
