@@ -18,7 +18,7 @@ import{GiSchoolBag} from"react-icons/gi";
 const Facilities = () => {
   return (
     <div>
-              <span className='facilityhd1'>FACILITIES</span><br></br>
+              <span className='faci_header1'>FACILITIES</span><br></br>
       <h1 className='facilityhd2'>Facilites  For Your Kids</h1><br></br>
         <div className='gridcontainer'>
           <div className='content1'><h3 className='headline3'> <span className='icons'><MdSportsCricket/></span>Play Ground</h3>
