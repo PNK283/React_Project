@@ -61,6 +61,102 @@ font-size: 16px;
     background-color: white
    
 }
+
+/* About component section*/
+.about_text{
+    margin-top: 20px;
+    color: #2596be;
+    font-family: cursive;
+    font-size: 35px;
+    color: black;
+}
+.about_img{
+    margin-top: 45px;
+   margin-left: 150px;
+   float: left;
+   width: 490px;
+   height: 500px;
+   border-radius: 5px;
+}
+.about_righttext{
+    float: right;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 510px;
+    color: #2596be;
+    font-size: 15px;
+}
+.about_righttext1{
+    float: right;
+    margin-top: 10px;
+    margin-right: 140px;
+    color: #2596be;
+    font-family: cursive;
+    font-size: 40px;
+    color: black;
+}
+.about_righttext2{
+    float: right;
+    margin-right: 130px;
+    margin-top:20px ;
+}
+.about_righttext3{
+    float: right;
+    margin-right: 174px;
+    margin-top: 4px;
+}
+.about_righttext4{
+    float: right;
+    margin-right: 260px;
+    margin-top:40px ;
+}
+.about_righttext5{
+    float: right;
+    margin-right: 310px;
+    margin-top:5px ;
+}
+.about_righttext6{
+    float: right;
+    margin-right: 448px;
+    margin-top:5px ;
+}
+.about_righttext7{
+    float: right;
+    margin-right: 225px;
+    margin-top:15px ;
+}
+.about_righttext8{
+    float: right;
+    margin-right: 265px;
+    margin-top:5px ;
+}
+.about_righttext9{
+    float: right;
+    margin-right: 282px;
+    margin-top: 5px;
+}
+.about_righttext10{
+    float: right;
+    margin-right: 501px;
+    margin-top: 5px;
+}
+.about_righttext11{
+    float:right;
+    margin-right: 242px;
+    margin-top: 10px;
+}
+.about_righttext12{
+    float: right;
+    margin-right: 335px;
+    margin-top: 5px;
+}
+.about_righttext13{
+    float: right;
+    margin-right: 379px;
+    margin-top: 5px;
+}
+
+
 /*Contact Components Section*/
 /*The Below code is used for the contact map  adjustments in contact Components*/
 .imgcontactus{
