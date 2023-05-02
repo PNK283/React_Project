@@ -81,6 +81,15 @@ const Facilities = () => {
                  <p className='musicdancepara'> Dance and Music is not just an extra cultural activity but it is a culture in itself. Dancing involves different styles of hand, foot and body movements in sync with various types of music. It is one of the best forms of work out and has immense health benefits.
             </p>
     </div>
+ <div className='foodcard'>
+            <img  className='logoimg6'  src={img6} ></img><br></br>
+                <span className='icons'><MdFoodBank/></span>
+                   <h2 className='foodhd'>Healthy Food</h2>
+                 <p className='foodpara'> School-age children need to eat foods from all five healthy food groups – vegetables, fruit, grain foods, dairy and protein. Healthy foods have nutrients that are important for growth, development and learning. Limit salty, fatty and sugary foods, low-fibre foods, and drinks with caffeine or a lot of sugar.
+            </p>
+    </div>
+   
+
     
       
          </div>
