@@ -3,9 +3,10 @@ import { useState } from "react";
 const slideStyles = {
   width: "100%",
   height: "100%",
-  borderRadius: "10px",
+  // borderRadius: "10px",
   backgroundSize: "cover",
   backgroundPosition: "center",
+  position:"relative",
 };
 
 const rightArrowStyles = {
@@ -17,6 +18,7 @@ const rightArrowStyles = {
   color: "#fff",
   zIndex: 1,
   cursor: "pointer",
+  color: "white",
 };
 
 const leftArrowStyles = {
@@ -28,6 +30,7 @@ const leftArrowStyles = {
   color: "#fff",
   zIndex: 1,
   cursor: "pointer",
+  color: "white",
 };
 
 const sliderStyles = {
@@ -38,12 +41,16 @@ const sliderStyles = {
 const dotsContainerStyles = {
   display: "flex",
   justifyContent: "center",
+  position:"absolute",
+  marginTop:"-50px",
+  marginLeft:"600px",
 };
 
 const dotStyle = {
   margin: "0 3px",
   cursor: "pointer",
   fontSize: "20px",
+  color:"white"
 };
 
 const Main = ({ slides }) => {
