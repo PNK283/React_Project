@@ -3,20 +3,20 @@ import Main from './Main';
 
 const Carousel = () => {
     const slides = [
-        { url: "http://localhost:3000/first.jpg", title: "beach" },
-        { url: "http://localhost:3000/second.jpg", title: "boat" },
-        // { url: "http://localhost:3000/image-3.jpg", title: "forest" },
-        // { url: "http://localhost:3000/image-4.jpg", title: "city" },
-        // { url: "http://localhost:3000/image-5.jpg", title: "italy" },
+        // { url: "http://localhost:3000/first.jpg", title: "beach" },
+        // { url: "http://localhost:3000/second.jpg", title: "boat" },
+        { url: "http://localhost:3000/Image1.png", title: "forest" },
+        { url: "http://localhost:3000/Image2.PNG", title: "city" },
+        { url: "http://localhost:3000/Image3.PNG", title: "italy" },
       ];
       const containerStyles = {
-        width: "500px",
-        height: "280px",
+        width: "100%",
+        height: "450px",
         margin: "0 auto",
+        marginTop:"0"
       };
       return (
         <div>
-          <h1>Hello monsterlessons</h1>
           <div style={containerStyles}>
             <Main slides={slides} />
           </div>
