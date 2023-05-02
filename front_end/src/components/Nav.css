@@ -799,7 +799,7 @@ input{
 }
 
 *facility component*/
-.facilityhd1{
+.faci_header1{
     font-family: sans-serif;
     justify-content: center;
     align-items: center;
@@ -810,8 +810,9 @@ input{
      font-size: 20px;
      margin-left:-50px;
     margin-top: 30px;
+      
 }
- .facilityhd1::before{
+ .faci_header1::before{
         content: " ";
         position: absolute;
         background-color:#17a2b8; 
@@ -821,7 +822,7 @@ input{
         top: 50%;
         z-index: -1;
     }
-.facilityhd1::after{
+.faci_header1::after{
         content: " ";
         position: absolute;
         background-color:#17a2b8;;
