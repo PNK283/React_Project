@@ -62,6 +62,289 @@ font-size: 16px;
    
 }
 
+/*Home component Section*/
+.home_container_2{
+    margin-top: 0px;
+    height: 490px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow: 20px;
+    background-color: #e1f7f0;
+    width: 100%;
+    border: 10px;
+    position: absolute;
+}
+.home_school_text{
+    float: left;
+    margin-left: 240px;
+    margin-top: 50px;
+    text-decoration: solid;
+    font-style: italic;
+    color: #577D86;
+}
+.home_school_text_2{
+    margin-top: 30px;
+    float: left;
+    margin-right: 300px;
+    text-align: left;
+    padding-left: 30px;
+    font-weight: normal;
+    font-style: italic;
+}
+.home_container_2_div{
+    position: relative;
+}
+.img_div{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+    float: right;
+    width: 490px ;
+    height: 260px;
+    padding: 5px;
+    background-color: white;
+    box-shadow:10px 10px 10px 10px #043c4c;
+}
+.side_img{
+    position: relative;
+    float: right;
+    width: 500px;
+    height: 270px;
+    margin-top: -5px;
+    margin-right: -5px;
+}
+.card_parent{
+    width: 100%;
+    height: 400px;
+    margin-top: 490px;
+    margin-bottom: -480px;
+}
+.home_about_text_container{
+    text-align: left;
+    float: right;
+    margin-top: 110px;
+    margin-right:  25px;
+    font-weight: normal;
+    font-style: italic;
+}
+.home_about_btn_container{
+    float: left;
+    margin-left: 450px;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+.home_about_btn{
+    width: 120px;   
+    height: 40px;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: #57C5B6;
+    border-radius: 5px;
+}
+.home_admission_container{
+    width: 100%;
+    height: 400px;
+    margin-top: 490px;
+    margin-bottom: -400px;
+}
+.home_admission_text_container{
+    text-align: left;
+    float: left;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+.home_admission_btn_container{
+
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.home_admission_btn{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: #57C5B6;
+    border-radius: 5px;
+}
+.home_facility_container{
+    width: 100%;
+    height: 400px;
+    margin-top: 490px;
+    margin-bottom: -480px;
+}
+.home_facility_text_container{
+    text-align: left;
+    float: right;
+    margin-top: 110px;
+    margin-right: 60px;
+    font-weight: normal;
+    font-style: italic;
+}
+.home_facility_btn_container{
+    float: left;
+    margin-left: 500px;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+.home_facility_btn{
+    width: 120px;   
+    height: 40px;
+    font-size: 15px;
+    font-family: cursive;
+    background-color: #57C5B6;
+    border-radius: 5px;
+}
+.footer_div{
+    width: 100%;
+    height: 320px;
+    background-color: #043c4c;
+    margin-top: 550px;
+    border-top-style: solid;
+    border-color: firebrick;
+}
+/* .footer_logo{
+    color: white;
+    float: left;
+    margin-left: 57px;
+    margin-top: 40px;
+} */
+.footer_school_name{
+    color: white;
+    margin-top: 110px;
+    margin-right: 990px;
+    font-family: cursive
+}
+.footer_final_text{
+    color: white;
+    margin-top: 50px;
+    margin-right: 950px;
+    font-family: sans-serif;
+}
+.footer-middle_text1{
+    color: white;
+    float: left;
+    margin-left: 430px;
+    margin-top: -177px;
+    font-family: cursive;
+}
+.location_icon{
+    color: white;
+    font-size: 30px;
+    float: left;
+    margin-top: -120px;
+    margin-left: 400px;
+}
+.address_text{
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+    float: left;
+    margin-left: 450px;
+    margin-top: -128px;
+}
+.address_text1{
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-left: 450px;
+    margin-top: -90px;
+    font-family: sans-serif;
+}
+.email_icon{
+    color: white;
+    font-size: 25px;
+    float: left;
+    margin-left: 405px;
+    margin-top: -50px;
+}
+.email_text{
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    float: left;
+    margin-left: 450px;
+    margin-top: -55px;
+}
+.email_text1{
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-left: 450px;
+    margin-top: -20px;
+    font-family: sans-serif;
+}
+.telephone_icon{
+    color: white;
+    font-size: 25px;
+    float: left;
+    margin-left: 405px;
+    margin-top: 15px;
+}
+.telephone_text{
+    color: white;
+    font-size: 22px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 9px;
+    font-family: cursive;
+}
+.telephont_text1{
+    color: white;
+    font-size: 15px;
+    float: left;
+    margin-left: -105px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.footer_right_text_1{
+    color: white;
+    float: right;
+    margin-right: 260px;
+    margin-top: -170px;
+    font-family: cursive;
+    font-size: 23px;
+}
+.footer_right_text_2{
+    color: white;
+    float: right;
+    margin-right: 170px;
+    margin-top: -120px;
+    font-family: sans-serif;
+}
+.text_connectwithus{
+    color: white;
+    float: right;
+    margin-top: -80px;
+    margin-right: 287px;
+    font-family: cursive;
+    font-size: 23px;
+    
+}
+.facebook_icon{
+    float: right;
+    margin-right: 430px;
+    margin-top: -20px;
+}
+.instagram_icon{
+    float: right;
+    margin-right: -60px;
+    margin-top: -19px;
+}
+.youtube_icon{
+    float: right;
+    margin-right: -100px;
+    margin-top: -20px;
+}
+.twitter_icon{
+    float: right;
+    margin-right: -140px;
+    margin-top: -20px;
+}
+
 /* About component section*/
 .about_text{
     margin-top: 20px;
